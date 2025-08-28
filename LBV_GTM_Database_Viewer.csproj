@@ -8,4 +8,11 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LBV-Basics\LBV_Basics.csproj" />
+    <ProjectReference Include="..\LBV-Database-Client\LBV_Database_Client.csproj" />
+    <ProjectReference Include="..\LBV-WPF-UserControls\LBV_WPF_UserControls.csproj" />
+    <ProjectReference Include="..\LBV-WPF\LBV_WPF.csproj" />
+  </ItemGroup>
+
 </Project>
